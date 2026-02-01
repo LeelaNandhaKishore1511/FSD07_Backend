@@ -65,12 +65,6 @@ Event Registration Management System/
 │   └── registrationRoutes.js     # Registration endpoints
 ├── database/
 │   └── connection.js             # MongoDB connection
-├── public/
-│   ├── index.html                # Login page
-│   ├── register.html             # Registration page
-│   ├── user-dashboard.html       # User dashboard
-│   ├── organizer-dashboard.html  # Organizer dashboard
-│   └── styles.css                # Global styles
 ├── .env                          # Environment variables
 ├── index.js                      # Main server file
 └── package.json                  # Dependencies
@@ -104,7 +98,7 @@ Event Registration Management System/
 ### Prerequisites
 - Node.js (v14 or higher)
 - MongoDB Atlas account (or local MongoDB)
-- npm or yarn
+- npm start or npm dev run
 
 ### Steps
 
